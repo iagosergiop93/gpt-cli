@@ -23,3 +23,7 @@ export function createNewChatFile(filename, content) {
         flag: 'w'
     })
 }
+
+export function getApiKey() {
+    return process.env.GPT
+}

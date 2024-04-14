@@ -1,5 +1,5 @@
 import { readConfigUtil, writeConfigUtil, createNewChatFile } from '../utils/config-util.js';
-import { listChatsUtil } from '../utils/list-chats-util.js';
+import { listChatsUtil } from '../utils/chat-util.js';
 import { 
     uniqueNamesGenerator,
     adjectives,

@@ -1,4 +1,4 @@
-import { listChatsUtil } from '../utils/list-chats-util.js';
+import { listChatsUtil } from '../utils/chat-util.js';
 import { readConfigUtil } from '../utils/config-util.js';
 
 export async function listChats(args) {
