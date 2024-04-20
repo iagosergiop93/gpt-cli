@@ -4,10 +4,11 @@
   "description": "",
   "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc && chmod -R +x bin",
+    "start": ""
   },
   "bin": {
-    "gpt": "./bin/index.js"
+    "gpt": "node ./bin/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,8 @@
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
-    "@types/yargs": "^17.0.24"
+    "@types/node": "^20.12.7",
+    "@types/yargs": "^17.0.24",
+    "typescript": "^5.4.5"
   }
 }

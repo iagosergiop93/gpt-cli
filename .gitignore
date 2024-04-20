@@ -1,3 +1,7 @@
 node_modules/
 
-bin/chats/
+bin/
+
+src/chats/
+
+src/config/
